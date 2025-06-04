@@ -9,4 +9,5 @@ ENV N8N_BASIC_AUTH_PASSWORD=admin123
 
 EXPOSE 5678
 
+ENTRYPOINT ["tini", "--"]
 CMD ["n8n"]
